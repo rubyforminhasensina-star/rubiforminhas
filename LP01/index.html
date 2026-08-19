@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TGQ5KFP');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rubi Forminhas - Aprenda a Criar e Vender Forminhas para Doces Finos</title>
+  
+  <!-- SEO & Favicon Meta -->
+  <meta name="description" content="Aprenda mais de 23 modelos de forminhas para doce em papel e tecido e crie um negócio lucrativo na mesa da sua casa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            rubi: {
+              50: '#FAF2F2',
+              100: '#F5E4E5',
+              200: '#ECCACD',
+              300: '#DEA4A9',
+              400: '#D07B83',
+              500: '#C25862',
+              600: '#AA3E48',
+              700: '#892E36',
+              800: '#672127',
+              900: '#461519',
+            },
+            rose: {
+              gold: '#C57E6D',
+              accent: '#D4808A',
+              bg: '#FDF7F7',
+              light: '#FDF3F4'
+            },
+            gold: '#D4AF37'
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          boxShadow: {
+            'glow': '0 0 25px rgba(200, 88, 98, 0.3)',
+            'cta': '0 10px 30px rgba(34, 197, 94, 0.4)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    @keyframes pulse-subtle {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.03); }
+    }
+    .animate-pulse-cta {
+      animation: pulse-subtle 2.5s infinite ease-in-out;
+    }
+    .text-gradient {
+      background: linear-gradient(135deg, #892E36 0%, #C25862 50%, #C57E6D 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .bg-gradient-rubi {
+      background: linear-gradient(135deg, #C25862 0%, #AA3E48 50%, #892E36 100%);
+    }
+    .bg-gradient-soft {
+      background: linear-gradient(180deg, #FDF7F7 0%, #F5E4E5 100%);
+    }
+  </style>
+</head>
+<body class="font-sans text-slate-800 bg-[#FDF8F8] antialiased selection:bg-rubi-200 selection:text-rubi-900">
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGQ5KFP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- TOP ANNOUNCEMENT BAR WITH COUNTDOWN -->
+  <div class="bg-rubi-800 text-white text-xs md:text-sm py-2.5 px-4 text-center sticky top-0 z-50 shadow-md">
+    <div class="max-w-6xl mx-auto flex flex-wrap items-center justify-center gap-2">
+      <span class="inline-flex items-center gap-1.5 font-bold tracking-wide text-rose-200">
+        <i class="fa-solid fa-fire text-amber-400"></i> OFERTA ESPECIAL POR TEMPO LIMITADO:
+      </span>
+      <span class="text-white/90">Desconto de R$ 148,00 encerra em:</span>
+      <div id="countdown" class="font-mono font-bold bg-black/30 px-2.5 py-0.5 rounded text-amber-300">
+        14m 59s
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER & LOGO -->
+  <header class="pt-6 pb-4 px-4 bg-gradient-to-b from-rose-50 to-[#FDF8F8] text-center border-b border-rubi-100/60">
+    <div class="max-w-4xl mx-auto flex flex-col items-center justify-center">
+      <img src="images/logo-rubi.png" alt="Rubi Forminhas - Ateliê Rubi" class="h-20 md:h-28 object-contain drop-shadow-sm hover:scale-105 transition-transform duration-300">
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative pt-6 pb-12 px-4 overflow-hidden">
+    <div class="max-w-4xl mx-auto text-center relative z-10">
+      
+      <!-- Pre-headline Tag -->
+      <div class="inline-flex items-center gap-2 bg-rubi-100/80 text-rubi-800 px-4 py-1.5 rounded-full text-xs md:text-sm font-semibold mb-5 border border-rubi-200 shadow-sm">
+        <i class="fa-solid fa-sparkles text-rubi-600"></i>
+        <span>Método Simples Passo a Passo Para Começar do Zero</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight md:leading-tight text-slate-900 mb-6">
+        Transforme Papel e Tecido em uma <span class="text-gradient underline decoration-rubi-300 decoration-wavy decoration-2">Renda Extra de R$ 1.500 a R$ 4.000</span> Fazendo Forminhas na Mesa de Casa!
+      </h1>
+
+      <!-- Sub-headline -->
+      <p class="text-base sm:text-lg md:text-xl text-slate-700 max-w-3xl mx-auto mb-8 leading-relaxed">
+        Mesmo que você nunca tenha feito artesanato antes, não tenha dinheiro para máquinas caros e queira trabalhar no seu tempo para <strong class="text-rubi-800 font-bold">conquistar sua própria independência financeira</strong>.
+      </p>
+
+      <!-- Hero Visual Showcase -->
+      <div class="relative max-w-2xl mx-auto mb-8 group">
+        <div class="absolute -inset-1 bg-gradient-to-r from-rubi-300 via-rose-gold to-rubi-400 rounded-3xl blur-md opacity-50 group-hover:opacity-75 transition duration-500"></div>
+        <div class="relative bg-white p-2 md:p-3 rounded-2xl shadow-2xl border border-rubi-100">
+          <img src="images/forminhas-destaque.jpg" alt="Forminhas para Doces Finos Rubi" class="w-full h-auto rounded-xl object-cover shadow-inner">
+          <div class="absolute bottom-4 left-4 right-4 bg-slate-900/85 backdrop-blur-md text-white p-3 rounded-xl text-xs sm:text-sm text-left flex items-center justify-between border border-white/20">
+            <div class="flex items-center gap-2">
+              <i class="fa-solid fa-circle-check text-emerald-400 text-base sm:text-lg"></i>
+              <span><strong>Doces Finos Luxuosos:</strong> Alta demanda em casamentos, aniversários e batizados!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Trust Indicators -->
+      <div class="max-w-md mx-auto pt-2">
+        <div class="flex flex-wrap items-center justify-center gap-4 text-xs sm:text-sm text-slate-600 font-medium bg-rose-light/60 py-3 px-4 rounded-2xl border border-rubi-100/80">
+          <span class="inline-flex items-center gap-1 text-emerald-700"><i class="fa-solid fa-lock"></i> Pagamento 100% Seguro</span>
+          <span class="inline-flex items-center gap-1 text-rubi-700"><i class="fa-solid fa-bolt"></i> Acesso Imediato</span>
+          <span class="inline-flex items-center gap-1 text-amber-700"><i class="fa-solid fa-shield-check"></i> Garantia de 7 Dias</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EMPATHY & EMOTIONAL PROFILE SECTION -->
+  <section class="py-12 md:py-16 px-4 bg-white border-y border-rubi-100">
+    <div class="max-w-4xl mx-auto">
+      
+      <div class="text-center mb-10">
+        <span class="text-rubi-600 font-bold text-xs md:text-sm uppercase tracking-wider">Você se identifica com essa história?</span>
+        <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mt-2">
+          Você Também Está Cansada de Ter que Pedir Dinheiro Para Tudo?
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+        
+        <!-- Card Dor 1 -->
+        <div class="bg-rose-light p-6 rounded-2xl border border-rubi-200/60 shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-rubi-100 text-rubi-700 flex items-center justify-between justify-center text-xl mb-4">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+          </div>
+          <h3 class="font-serif font-bold text-xl text-rubi-900 mb-2">Dependência que Causa Desconforto</h3>
+          <p class="text-slate-700 leading-relaxed text-sm sm:text-base">
+            Ter que pedir dinheiro até para as coisas mais simples do dia a dia, como comprar um presente para os filhos ou um cuidado pessoal, traz um sentimento ruim no peito. Você sabe que merece ter a sua própria autonomia.
+          </p>
+        </div>
+
+        <!-- Card Dor 2 -->
+        <div class="bg-rose-light p-6 rounded-2xl border border-rubi-200/60 shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-rubi-100 text-rubi-700 flex items-center justify-between justify-center text-xl mb-4">
+            <i class="fa-solid fa-house-user"></i>
+          </div>
+          <h3 class="font-serif font-bold text-xl text-rubi-900 mb-2">Sem Poder Sair de Casa Para Trabalhar</h3>
+          <p class="text-slate-700 leading-relaxed text-sm sm:text-base">
+            Você tem filhos pequenos, tarefas de casa ou mora longe dos grandes centros urbanos e não pode (ou não quer) cumprir 8 horas longe de quem você ama para ganhar um salário mínimo.
+          </p>
+        </div>
+
+        <!-- Card Dor 3 -->
+        <div class="bg-rose-light p-6 rounded-2xl border border-rubi-200/60 shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-rubi-100 text-rubi-700 flex items-center justify-between justify-center text-xl mb-4">
+            <i class="fa-solid fa-piggy-bank"></i>
+          </div>
+          <h3 class="font-serif font-bold text-xl text-rubi-900 mb-2">Pouco Dinheiro Para Investir</h3>
+          <p class="text-slate-700 leading-relaxed text-sm sm:text-base">
+            Muitos negócios exigem milhares de reais em máquinas ou estoques. Você precisa de algo que possa começar com materiais simples e baratos como papel e tecido que você encontra em qualquer lugar.
+          </p>
+        </div>
+
+        <!-- Card Dor 4 -->
+        <div class="bg-rose-light p-6 rounded-2xl border border-rubi-200/60 shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-rubi-100 text-rubi-700 flex items-center justify-between justify-center text-xl mb-4">
+            <i class="fa-solid fa-heart-crack"></i>
+          </div>
+          <h3 class="font-serif font-bold text-xl text-rubi-900 mb-2">Medo de "Já Tentar de Tudo" e Não Dar Certo</h3>
+          <p class="text-slate-700 leading-relaxed text-sm sm:text-base">
+            Talvez você já tenha tentado outras coisas e se frustrou. A boa notícia é que com as técnicas certas de modelagem e tingimento, qualquer pessoa — mesmo sem talento nato — consegue fazer peças perfeitas.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Quote Box Emocional -->
+      <div class="mt-10 bg-gradient-to-r from-rubi-800 to-rubi-900 text-white p-6 sm:p-8 rounded-3xl text-center shadow-xl relative overflow-hidden">
+        <div class="absolute top-0 right-0 opacity-10 translate-x-4 -translate-y-4">
+          <i class="fa-solid fa-quote-right text-9xl text-white"></i>
+        </div>
+        <p class="text-lg sm:text-xl font-serif italic mb-4 leading-relaxed text-rose-100">
+          "Ficar parada não dá pra ficar, mas já tentei tanta coisa que não funcionou... tomara que dessa vez seja diferente."
+        </p>
+        <div class="inline-block bg-white/10 backdrop-blur-sm px-4 py-1.5 rounded-full text-xs sm:text-sm text-rose-200 font-medium">
+          ❤️ Nós ouvimos você. E criamos este curso exatamente para ser a sua oportunidade definitiva.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WHY FORMINHAS SECTION -->
+  <section class="py-12 md:py-16 px-4 bg-gradient-to-b from-[#FDF8F8] to-rose-50/60">
+    <div class="max-w-4xl mx-auto">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900">
+          Por Que Forminhas de Doce São o Lucro Perfeito para Fazer em Casa?
+        </h2>
+        <p class="text-slate-600 mt-3 text-base sm:text-lg">
+          Doces finos precisam de embalagens que valorizem a mesa. As festas NUNCA param!
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 text-center">
+        
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-rubi-100 flex flex-col items-center">
+          <div class="w-14 h-14 rounded-full bg-rose-light text-rubi-600 flex items-center justify-center text-2xl mb-4">
+            <i class="fa-solid fa-cake-candles"></i>
+          </div>
+          <h3 class="font-serif font-bold text-lg text-slate-900 mb-2">Mercado Sem Crise</h3>
+          <p class="text-xs sm:text-sm text-slate-600">
+            Casamentos, aniversários de 15 anos, batizados e festas corporativas acontecem todo fim de semana em todas as cidades.
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-rubi-100 flex flex-col items-center">
+          <div class="w-14 h-14 rounded-full bg-rose-light text-rubi-600 flex items-center justify-center text-2xl mb-4">
+            <i class="fa-solid fa-coins"></i>
+          </div>
+          <h3 class="font-serif font-bold text-lg text-slate-900 mb-2">Alto Lucro por Pedido</h3>
+          <p class="text-xs sm:text-sm text-slate-600">
+            Uma única festa costuma encomendar de 300 a 1.000 forminhas. O custo de produção é baixo e a margem de lucro é excelente!
+          </p>
+        </div>
+
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-rubi-100 flex flex-col items-center">
+          <div class="w-14 h-14 rounded-full bg-rose-light text-rubi-600 flex items-center justify-center text-2xl mb-4">
+            <i class="fa-solid fa-scissors"></i>
+          </div>
+          <h3 class="font-serif font-bold text-lg text-slate-900 mb-2">Materiais Baratos</h3>
+          <p class="text-xs sm:text-sm text-slate-600">
+            Você pode começar utilizando até mesmo papel sulfite tingido, papéis crepon e tecidos acessíveis que rendem dezenas de forminhas.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- WHAT YOU WILL LEARN SECTION -->
+  <section class="py-12 md:py-16 px-4 bg-white border-t border-rubi-100">
+    <div class="max-w-4xl mx-auto">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="bg-rubi-100 text-rubi-800 font-bold text-xs px-3 py-1 rounded-full uppercase tracking-wider">Passo a Passo em Vídeo</span>
+        <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mt-3">
+          O Que Você Vai Aprender no Curso Rubi Forminhas:
+        </h2>
+        <p class="text-slate-600 mt-2">
+          Do básico absoluto até a criação de peças luxuosas desejadas pelas noivas
+        </p>
+      </div>
+
+      <div class="bg-gradient-to-br from-rose-light to-white p-6 sm:p-8 rounded-3xl border border-rubi-200/80 shadow-md">
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 rounded-full bg-rubi-600 text-white flex-shrink-0 flex items-center justify-center font-bold">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <div>
+              <h3 class="font-serif font-bold text-lg text-slate-900">+23 Modelos de Forminhas Exclusivos</h3>
+              <p class="text-slate-600 text-sm mt-1 leading-relaxed">
+                Aprenda a confeccionar passo a passo mais de 23 modelos em papel e tecido (Rosas, Peônias, Camélias, Botões, Botõezinhos e muito mais).
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 rounded-full bg-rubi-600 text-white flex-shrink-0 flex items-center justify-center font-bold">
+              <i class="fa-solid fa-droplet"></i>
+            </div>
+            <div>
+              <h3 class="font-serif font-bold text-lg text-slate-900">Técnica Secreta de Tingimento</h3>
+              <p class="text-slate-600 text-sm mt-1 leading-relaxed">
+                Como tingir papéis comuns (como papel sulfite) e tecidos gastando centavos para obter gradientes e cores degradê profissionais incríveis!
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 rounded-full bg-rubi-600 text-white flex-shrink-0 flex items-center justify-center font-bold">
+              <i class="fa-solid fa-scissors"></i>
+            </div>
+            <div>
+              <h3 class="font-serif font-bold text-lg text-slate-900">Corte e Frização Sem Mistério</h3>
+              <p class="text-slate-600 text-sm mt-1 leading-relaxed">
+                Técnicas manuais para cortar, frizar e dar formato perfeito às pétalas mesmo se você não tiver frisadores caros ou máquinas.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-10 h-10 rounded-full bg-rubi-600 text-white flex-shrink-0 flex items-center justify-center font-bold">
+              <i class="fa-solid fa-box-open"></i>
+            </div>
+            <div>
+              <h3 class="font-serif font-bold text-lg text-slate-900">Montagem & Acabamento Fino</h3>
+              <p class="text-slate-600 text-sm mt-1 leading-relaxed">
+                Como estruturar a base da forminha, encaixar o doce com firmeza e dar o toque profissional que multiplica o valor de venda.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- BONUSES SECTION -->
+  <section class="py-12 md:py-16 px-4 bg-gradient-to-b from-rose-50/60 to-[#FDF8F8]">
+    <div class="max-w-4xl mx-auto">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="bg-amber-100 text-amber-900 font-bold text-xs px-3 py-1 rounded-full uppercase tracking-wider border border-amber-300">
+          <i class="fa-solid fa-gift text-amber-600 mr-1"></i> Presentes Inclusos Hoje
+        </span>
+        <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mt-3">
+          Leve 3 Bônus Especiais Totalmente Gratuitos!
+        </h2>
+        <p class="text-slate-600 mt-2">
+          Tudo o que você precisa para criar, precificar e vender suas forminhas sem complicação.
+        </p>
+      </div>
+
+      <div class="space-y-6">
+        
+        <!-- Bônus 1 -->
+        <div class="bg-white p-6 rounded-2xl border-2 border-rubi-100 shadow-md flex flex-col md:flex-row items-center gap-6">
+          <div class="w-20 h-20 rounded-2xl bg-rubi-100 text-rubi-700 flex-shrink-0 flex items-center justify-center text-3xl font-serif font-bold">
+            <i class="fa-solid fa-file-pdf"></i>
+          </div>
+          <div class="flex-grow text-center md:text-left">
+            <span class="text-xs font-bold text-rubi-600 uppercase tracking-wider">Bônus #1 • Valor Normal: R$ 67,00</span>
+            <h3 class="font-serif font-bold text-xl text-slate-900 mt-1">Mais de 40 Moldes de Forminhas em Tamanho Real</h3>
+            <p class="text-slate-600 text-sm mt-1">
+              Moldes prontos para você imprimir em impressora comum, recortar e usar imediatamente. Sem precisar desenhar nada do zero!
+            </p>
+          </div>
+          <div class="bg-emerald-100 text-emerald-800 font-bold text-xs px-3 py-1.5 rounded-full">
+            GRÁTIS HOJE
+          </div>
+        </div>
+
+        <!-- Bônus 2 -->
+        <div class="bg-white p-6 rounded-2xl border-2 border-rubi-100 shadow-md flex flex-col md:flex-row items-center gap-6">
+          <div class="w-20 h-20 rounded-2xl bg-rose-light text-rose-gold flex-shrink-0 flex items-center justify-center text-3xl">
+            <i class="fa-brands fa-whatsapp text-emerald-600"></i>
+          </div>
+          <div class="flex-grow text-center md:text-left">
+            <span class="text-xs font-bold text-rubi-600 uppercase tracking-wider">Bônus #2 • Valor Normal: R$ 47,00</span>
+            <h3 class="font-serif font-bold text-xl text-slate-900 mt-1">Ebook: Vendas pelo WhatsApp: Do Primeiro Contato ao Pagamento</h3>
+            <p class="text-slate-600 text-sm mt-1">
+              Aprenda a abordar confeiteiras, cerimonialistas e noivas da sua região pelo celular, fechar pedidos e receber adiantado com segurança.
+            </p>
+          </div>
+          <div class="bg-emerald-100 text-emerald-800 font-bold text-xs px-3 py-1.5 rounded-full">
+            GRÁTIS HOJE
+          </div>
+        </div>
+
+        <!-- Bônus 3 -->
+        <div class="bg-white p-6 rounded-2xl border-2 border-rubi-100 shadow-md flex flex-col md:flex-row items-center gap-6">
+          <div class="w-20 h-20 rounded-2xl bg-amber-50 text-amber-700 flex-shrink-0 flex items-center justify-center text-3xl">
+            <i class="fa-solid fa-calculator"></i>
+          </div>
+          <div class="flex-grow text-center md:text-left">
+            <span class="text-xs font-bold text-rubi-600 uppercase tracking-wider">Bônus #3 • Valor Normal: R$ 47,00</span>
+            <h3 class="font-serif font-bold text-xl text-slate-900 mt-1">Ebook: Como Precificar Sem Trabalhar de Graça</h3>
+            <p class="text-slate-600 text-sm mt-1">
+              Descubra a fórmula exata para calcular o custo de papel/tecido, o valor da sua hora de trabalho e colocar uma margem de lucro justa sem medo de perder clientes.
+            </p>
+          </div>
+          <div class="bg-emerald-100 text-emerald-800 font-bold text-xs px-3 py-1.5 rounded-full">
+            GRÁTIS HOJE
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF / TESTIMONIALS SECTION -->
+  <section class="py-12 md:py-16 px-4 bg-white border-y border-rubi-100">
+    <div class="max-w-5xl mx-auto">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="bg-rubi-100 text-rubi-800 font-bold text-xs px-3 py-1 rounded-full uppercase tracking-wider">Histórias Reais de Sucesso</span>
+        <h2 class="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-slate-900 mt-3">
+          Veja o Que As Alunas da Professora Rubiany Estão Produzindo:
+        </h2>
+        <p class="text-slate-600 mt-2">
+          Pessoas comuns que começaram exatamente onde você está hoje e já estão colhendo os frutos!
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- Depoimento 1 -->
+        <div class="bg-rose-light/50 p-4 rounded-2xl border border-rubi-200/80 flex flex-col justify-between shadow-sm hover:shadow-md transition">
+          <div class="mb-3 rounded-xl overflow-hidden shadow-inner border border-white">
+            <img src="images/depoimento-1.jpg" alt="Depoimento Aluna Rosas de Papel" class="w-full h-auto object-cover">
+          </div>
+          <div class="bg-white p-3.5 rounded-xl border border-rubi-100 text-xs sm:text-sm text-slate-700">
+            <div class="flex items-center gap-1 text-amber-400 mb-1.5">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="italic text-slate-800">
+              "Olha minhas lindas rosas feitas com as técnicas que aprendi no curso da Rubi. Realmente vale a pena fazer o investimento!"
+            </p>
+            <span class="block text-right font-bold text-rubi-800 mt-2 text-xs">— Aluna Rubi Forminhas</span>
+          </div>
+        </div>
+
+        <!-- Depoimento 2 -->
+        <div class="bg-rose-light/50 p-4 rounded-2xl border border-rubi-200/80 flex flex-col justify-between shadow-sm hover:shadow-md transition">
+          <div class="mb-3 rounded-xl overflow-hidden shadow-inner border border-white">
+            <img src="images/depoimento-2.jpg" alt="Depoimento Aluna Rubiany da Ruby Forminhas" class="w-full h-auto object-cover">
+          </div>
+          <div class="bg-white p-3.5 rounded-xl border border-rubi-100 text-xs sm:text-sm text-slate-700">
+            <div class="flex items-center gap-1 text-amber-400 mb-1.5">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="italic text-slate-800">
+              "Não tenho nenhuma dúvida que aprendi com a melhor: Rubiany da Ruby Forminhas! Obrigada Ruby!"
+            </p>
+            <span class="block text-right font-bold text-rubi-800 mt-2 text-xs">— Aluna Grata</span>
+          </div>
+        </div>
+
+        <!-- Depoimento 3 -->
+        <div class="bg-rose-light/50 p-4 rounded-2xl border border-rubi-200/80 flex flex-col justify-between shadow-sm hover:shadow-md transition">
+          <div class="mb-3 rounded-xl overflow-hidden shadow-inner border border-white">
+            <img src="images/depoimento-3.jpeg" alt="Depoimento WhatsApp Karla Aluna Tingimento Sulfite" class="w-full h-auto object-cover">
+          </div>
+          <div class="bg-white p-3.5 rounded-xl border border-rubi-100 text-xs sm:text-sm text-slate-700">
+            <div class="flex items-center gap-1 text-amber-400 mb-1.5">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="italic text-slate-800">
+              "Eu já havia feito um curso de forminhas caríssimo e com suporte péssimo. Resolvi fazer o da Rubiany e o resultado do tingimento no sulfite ficou maravilhoso!"
+            </p>
+            <span class="block text-right font-bold text-rubi-800 mt-2 text-xs">— Karla (Aluna Do Curso)</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- OFFER & PRICING SECTION -->
+  <section id="oferta" class="py-14 md:py-20 px-4 bg-gradient-to-b from-[#FDF8F8] via-rose-50 to-rubi-100/50 relative">
+    <div class="max-w-3xl mx-auto">
+      
+      <div class="bg-white rounded-3xl shadow-2xl border-2 border-rubi-300 overflow-hidden relative">
+        
+        <!-- Top Banner Offer -->
+        <div class="bg-gradient-rubi text-white py-4 px-6 text-center">
+          <span class="bg-amber-400 text-slate-900 font-extrabold text-xs px-3 py-1 rounded-full uppercase tracking-wider mb-1 inline-block">
+            OFERTA ESPECIAL DE LANÇAMENTO
+          </span>
+          <h2 class="font-serif text-2xl sm:text-3xl font-bold">Garanta Seu Acesso Completo Hoje</h2>
+        </div>
+
+        <div class="p-6 sm:p-10 text-center">
+          
+          <!-- Perceived Value List -->
+          <div class="max-w-md mx-auto text-left space-y-3 mb-8 text-sm text-slate-700 border-b border-rubi-100 pb-6">
+            <div class="flex items-center justify-between">
+              <span class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-600"></i> Curso Completo Rubi Forminhas (+23 Modelos)</span>
+              <span class="line-through text-slate-400">R$ 197,00</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-600"></i> Bônus #1: +40 Moldes em Tamanho Real</span>
+              <span class="line-through text-slate-400">R$ 67,00</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-600"></i> Bônus #2: Ebook Vendas pelo WhatsApp</span>
+              <span class="line-through text-slate-400">R$ 47,00</span>
+            </div>
+            <div class="flex items-center justify-between">
+              <span class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-600"></i> Bônus #3: Ebook Como Precificar</span>
+              <span class="line-through text-slate-400">R$ 47,00</span>
+            </div>
+            <div class="flex items-center justify-between font-semibold text-slate-900 pt-2 border-t border-slate-100">
+              <span>Valor Total de Tudo Isso:</span>
+              <span class="line-through text-red-500 font-bold">R$ 358,00</span>
+            </div>
+          </div>
+
+          <!-- Price Highlight -->
+          <div class="mb-8">
+            <p class="text-sm font-semibold text-slate-500 uppercase tracking-wider mb-1">Mas HOJE você leva tudo por apenas:</p>
+            <div class="flex items-baseline justify-center gap-1 text-slate-900">
+              <span class="text-2xl font-bold">R$</span>
+              <span class="text-6xl sm:text-7xl font-extrabold font-serif text-rubi-700">49</span>
+              <span class="text-2xl font-bold">,00</span>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-600 mt-2 font-medium">
+              À vista no PIX / Cartão ou em <strong>5x de R$ 11,36</strong> sem complicação
+            </p>
+          </div>
+
+          <!-- CTA Button -->
+          <div class="max-w-md mx-auto space-y-4">
+            <a href="https://pay.wiapy.com/rRXUhuJ4Sy3" class="animate-pulse-cta block w-full bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold text-xl py-5 px-8 rounded-2xl shadow-cta transition duration-300 text-center tracking-wide">
+              <i class="fa-solid fa-cart-shopping mr-2"></i> QUERO SIM! GARANTIR MINHA VAGA POR R$ 49
+            </a>
+            <p class="text-xs text-slate-500 flex items-center justify-center gap-2">
+              <i class="fa-solid fa-lock text-emerald-600"></i> Ambiente 100% Criptografado e Seguro
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GUARANTEE SECTION -->
+  <section class="py-12 px-4 bg-white border-b border-rubi-100">
+    <div class="max-w-3xl mx-auto bg-rose-light/70 p-6 sm:p-8 rounded-3xl border border-rubi-200 flex flex-col sm:flex-row items-center gap-6">
+      <div class="w-24 h-24 flex-shrink-0 flex items-center justify-center">
+        <i class="fa-solid fa-shield-halved text-6xl text-rubi-700"></i>
+      </div>
+      <div>
+        <h3 class="font-serif font-bold text-xl sm:text-2xl text-slate-900 mb-2">
+          Garantia Incondicional de 7 Dias - Risco ZERO!
+        </h3>
+        <p class="text-slate-700 text-sm leading-relaxed">
+          Assista às aulas, baixe os moldes e experimente o método. Se por qualquer motivo você achar que o curso não é para você ou não se adaptar, basta nos enviar uma mensagem dentro de 7 dias que devolveremos <strong>100% do seu dinheiro</strong> sem letras miúdas. Seu risco é inteiramente ZERO!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ ACCORDION SECTION -->
+  <section class="py-12 md:py-16 px-4 bg-[#FDF8F8]">
+    <div class="max-w-3xl mx-auto">
+      
+      <div class="text-center mb-10">
+        <h2 class="font-serif text-2xl sm:text-3xl font-bold text-slate-900">Perguntas Frequentes (FAQ)</h2>
+        <p class="text-slate-600 text-sm mt-2">Tire suas dúvidas antes de dar o primeiro passo</p>
+      </div>
+
+      <div class="space-y-4" id="faqAccordion">
+        
+        <!-- Item 1 -->
+        <div class="bg-white rounded-2xl border border-rubi-100 shadow-sm overflow-hidden">
+          <button onclick="toggleFaq('faq1')" class="w-full p-5 text-left font-serif font-bold text-slate-900 flex justify-between items-center focus:outline-none">
+            <span>Preciso ter máquinas ou frisadores caros para começar?</span>
+            <i id="icon-faq1" class="fa-solid fa-chevron-down text-rubi-600 transition-transform"></i>
+          </button>
+          <div id="faq1" class="hidden px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-50 pt-3">
+            Não! O método ensinado pela professora Rubiany foi desenvolvido pensado em quem está começando da mesa de cozinha com ferramentas simples como tesoura, cola e papéis/tecidos acessíveis.
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="bg-white rounded-2xl border border-rubi-100 shadow-sm overflow-hidden">
+          <button onclick="toggleFaq('faq2')" class="w-full p-5 text-left font-serif font-bold text-slate-900 flex justify-between items-center focus:outline-none">
+            <span>Moro em cidade pequena, consigo vender mesmo assim?</span>
+            <i id="icon-faq2" class="fa-solid fa-chevron-down text-rubi-600 transition-transform"></i>
+          </button>
+          <div id="faq2" class="hidden px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-50 pt-3">
+            Com certeza! Em cidades pequenas acontecem casamentos, aniversários, batizados e festas de igreja toda semana. Além disso, você aprenderá no bônus de WhatsApp a enviar suas peças para cidades vizinhas!
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="bg-white rounded-2xl border border-rubi-100 shadow-sm overflow-hidden">
+          <button onclick="toggleFaq('faq3')" class="w-full p-5 text-left font-serif font-bold text-slate-900 flex justify-between items-center focus:outline-none">
+            <span>Como vou receber o acesso ao curso?</span>
+            <i id="icon-faq3" class="fa-solid fa-chevron-down text-rubi-600 transition-transform"></i>
+          </button>
+          <div id="faq3" class="hidden px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-50 pt-3">
+            Assim que seu pagamento for confirmado (no PIX o acesso é liberado em menos de 2 minutos!), você receberá no seu e-mail e WhatsApp os dados para entrar na área de membros exclusiva.
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="bg-white rounded-2xl border border-rubi-100 shadow-sm overflow-hidden">
+          <button onclick="toggleFaq('faq4')" class="w-full p-5 text-left font-serif font-bold text-slate-900 flex justify-between items-center focus:outline-none">
+            <span>Por quanto tempo terei acesso às aulas?</span>
+            <i id="icon-faq4" class="fa-solid fa-chevron-down text-rubi-600 transition-transform"></i>
+          </button>
+          <div id="faq4" class="hidden px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-50 pt-3">
+            Você terá acesso ilimitado para assistir no seu tempo, quantas vezes desejar, pelo celular, tablet ou computador.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FINAL CTA SECTION -->
+  <section class="py-12 md:py-16 px-4 bg-gradient-rubi text-white text-center">
+    <div class="max-w-3xl mx-auto space-y-6">
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold">
+        Não Deixe Para Depois a Sua Independência Financeira!
+      </h2>
+      <p class="text-rose-100 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
+        Dê o primeiro passo hoje por apenas R$ 49,00 e descubra como transformar simples folhas de papel e tecido na sua fonte de renda em casa.
+      </p>
+      <div class="pt-2 max-w-md mx-auto">
+        <a href="https://pay.wiapy.com/rRXUhuJ4Sy3" class="block w-full bg-emerald-500 hover:bg-emerald-400 text-slate-900 font-extrabold text-xl py-5 px-8 rounded-2xl shadow-2xl transition duration-300">
+          <i class="fa-solid fa-circle-check mr-2"></i> QUERO APRENDER A FAZER FORMINHAS AGORA
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-8 px-4 bg-slate-950 text-slate-400 text-xs text-center border-t border-slate-800">
+    <div class="max-w-4xl mx-auto space-y-3">
+      <p>© 2026 Ateliê Rubi Forminhas - Rubiany S. L. Batista. Todos os direitos reservados.</p>
+      <p class="text-slate-500">Este site não faz parte do Google nem do Facebook. Todo o conteúdo é de responsabilidade de Rubi Forminhas.</p>
+    </div>
+  </footer>
+
+
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // FAQ Accordion Toggle
+    function toggleFaq(id) {
+      const element = document.getElementById(id);
+      const icon = document.getElementById('icon-' + id);
+      if (element.classList.contains('hidden')) {
+        element.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+      } else {
+        element.classList.add('hidden');
+        icon.style.transform = 'rotate(0deg)';
+      }
+    }
+
+    // Dynamic Countdown Timer (15 min timer)
+    (function startTimer() {
+      let duration = 15 * 60; // 15 minutes in seconds
+      const display = document.getElementById('countdown');
+      
+      setInterval(function () {
+        let minutes = parseInt(duration / 60, 10);
+        let seconds = parseInt(duration % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        if (display) {
+          display.textContent = minutes + "m " + seconds + "s";
+        }
+
+        if (--duration < 0) {
+          duration = 15 * 60; // reset
+        }
+      }, 1000);
+    })();
+  </script>
+
+</body>
+</html>
