@@ -472,3 +472,17 @@ img, video {
 @media (min-width: 1024px) {
   .lg\:text-6xl { font-size: 3.75rem; line-height: 1; }
 }
+
+/* Utilitários usados pela galeria, depoimentos em print e bônus (adicionados em 2026-11-12) */
+.grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.gap-3 { gap: 0.75rem; }
+.aspect-square { aspect-ratio: 1 / 1; }
+.max-w-xs { max-width: 20rem; }
+.max-w-lg { max-width: 32rem; }
+.mt-6 { margin-top: 1.5rem; }
+@media (min-width: 640px) {
+  .sm\:grid-cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .sm\:text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+}
+
+figure { margin: 0; }
